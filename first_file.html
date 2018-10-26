@@ -1,20 +1,87 @@
 <!DOCTYPE html>
-<html>
-    <head> Student Bio</head>
-    <h1>Monet Thigpen</h1>
-    <img src="unnamed.jpg" length="200px" width="200px">
-    <body>
-    <p>
-            Hello. My name is Monet Thigpen. I was born in New York, New York and raised in West Philadelphia.
-         One of my favorite things to do is travel. There is a thrill of learning about new places and cultures that you can't get from 
-         reading about them or seeing them on TV.
-    </p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li>-Email: <a href src="monet210@gmail.com">monet210@gmail.com</a></li>
-        <li>-Github: <a href src="#">monetthigpen</a></li>
-        <li>-Portfolio: <a href src="#">coming Soon</a></li>
-    </ul>
+<style type="text/css">
+    header{
+        font-size:28px;
+        background-color: black;
+        width: 1024px;
+        color:antiquewhite;
+        margin: o;
+        text-emphasis: center;
+        text-align: center
+    
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-content: baseline;
 
-    </body>
+
+    }
+    #mainbio{
+
+        font: times;
+        font color: #333333;
+        margin: 0%;
+        padding: 1cm;
+        text-align: :left;
+        float: left;
+
+
+    }
+    
+    #contactinfo{
+        padding:0%;
+
+    }
+    img{
+        width:200px;
+        height:200px;
+
+    }
+    div{
+        flex:1;
+
+    }
+     
+
+    
+
+</style>
+<html>
+    <div>
+         <header>Student Bio</header>
+    </div>
+
+   <div class="container">
+ 
+        <div> 
+         <h1>Monet Thigpen</h1>
+        
+         <img src="unnamed.jpg" alt="Monet">
+   
+        </div>
+
+        <div id= "mainbio">
+                <body>
+                 <p>
+                     Hello. My name is Monet Thigpen. I was born in New York, New York and raised in West Philadelphia.
+                    One of my favorite things to do is travel. There is a thrill of learning about new places and cultures that you can't get from 
+                    reading about them or seeing them on TV.
+                    </p>
+        </div>
+    
+                    <div id="contactinfo">
+                        <h2>Contact Info</h2>
+                        <ul>
+                         <li><strong>Email:</strong> <a href src="monet210@gmail.com">monet210@gmail.com</a></li>
+                         <li><strong>Github:</strong> <a href src="#">monetthigpen</a></li>
+                         <li><strong>Portfolio:</strong> <a href src="#">coming Soon</a></li>
+                        </ul>
+                    </div>
+                 </body>
+         
+
+    </div>
+
 </html>
